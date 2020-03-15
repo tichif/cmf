@@ -11,6 +11,18 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+/*
+*
+* Front
+*
+*/
+Route::get('/', 'Front\AccueilController@index');
+
+Route::get('/calendrier', 'Front\AccueilController@activitees');
+
+Route::get('/apropos', 'Front\AccueilController@about');
+
+Route::get('/gallerie', 'Front\GallerieController@gallerie');
+
+Route::get('/contact', 'Front\ContactController@getContact');
+Route::post('/contact', 'Front\ContactController@postContact');

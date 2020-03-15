@@ -1,0 +1,111 @@
+body {
+    overflow-x: hidden;
+    font-family: "Roboto", sans-serif;
+}
+
+/* ######## Navbar ########*/
+.navbar .nav-item {
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+}
+
+.navbar .nav-item.active {
+    border-left: 2px solid #847878 !important;
+}
+
+/*######## Carousel ###########*/
+.carousel-item {
+    height: 450px;
+}
+
+.carousel-image-1 {
+    background: url("https://images.unsplash.com/photo-1567057420215-0afa9aa9253a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-image-2 {
+    background: url("https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-image-3 {
+    background: url("https://images.unsplash.com/photo-1467307983825-619715426c70?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=670&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+/* ######### About #########*/
+#section-accueil {
+    min-height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("https://images.unsplash.com/photo-1560931296-168316935386?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-accueil h3 {
+    text-decoration: underline;
+    color: #f5f3f5 !important;
+    font-size: 40px;
+}
+
+#section-accueil p {
+    color: #f5f3f5;
+    font-style: italic;
+    letter-spacing: 0.1em;
+}
+
+/*######## Section Activitee/ Contact #######*/
+#activitees-contact {
+    padding: 40px;
+}
+
+#activitees-contact h3 {
+    font-size: 30px;
+}
+
+#activitees-contact p {
+    font-size: 18px;
+}
+
+/*###### Footer ##########*/
+footer {
+    background: #191919 !important;
+    padding: 40px;
+}
+
+footer ul {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+footer ul li a {
+    color: #f5f3f5;
+}
+
+footer ul li a:hover {
+    color: #f5f3f5;
+}
+
+footer h3 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.info-footer {
+    text-align: center;
+    margin-top: 20px;
+}

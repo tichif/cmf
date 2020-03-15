@@ -15,6 +15,11 @@ return [
 
     'name' => env('APP_NAME', 'CMF'),
 
+
+    // Other info about the website
+    'WEBSITE_AUTHOR' => env('WEBSITE_AUTHOR', 'Dalzon Charles-Hébert'),
+    'WEBSITE_DESCRIPTION' => env('WEBSITE_DESCRIPTION', 'Ecole'),
+    'WEBSITE_KEYWORDSr' => env('WEBSITE_KEYWORDS', 'CMF, Frères, Collège Méthodiste de Frères, Collège Bird'),
     /*
     |--------------------------------------------------------------------------
     | Application Environment
